@@ -4,7 +4,7 @@
 
 ## Objective
 
-This project teaches you how to scan your **local network for open ports** to understand network exposure and potential vulnerabilities. You'll use **Nmap** to identify active devices, open ports, and services running on your local network.
+This project taught me how to scan my **local network for open ports** to understand network exposure and potential vulnerabilities. I used **Nmap** to identify active devices, open ports, and services running on your local network.
 
 ---
 
@@ -19,7 +19,7 @@ This project teaches you how to scan your **local network for open ports** to un
 
 ### 1. Install Nmap
 
-Download and install the latest version of Nmap from:  
+I downloaded and installed the latest version of Nmap from:  
 [https://nmap.org/download.html](https://nmap.org/download.html)
 
 Ensure Npcap is installed when prompted during installation (required for SYN scans on Windows).
@@ -28,14 +28,14 @@ Ensure Npcap is installed when prompted during installation (required for SYN sc
 
 ### 2. Find Your Local IP Range
 
-To determine your IP address and subnet:
+To determine my IP address and subnet, I used:
 
 - **Windows:**
   ```powershell
   ipconfig
 
 ### 3. Perform a TCP SYN Scan
-Use a SYN scan (-sS) to find open TCP ports quickly and discreetly.
+I used a SYN scan (-sS) to find open TCP ports quickly and discreetly.
 
 - **Windows:**
   ```powershell
